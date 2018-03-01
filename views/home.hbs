@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -14,3 +14,153 @@
 <body>
 
 </html>
+<!--
+<!DOCTYPE HTML>
+<html >
+<head>
+<title>
+Home : The new tech
+</title>
+<style>
+div.first{
+position: -webkit-sticky;
+position: sticky;
+z-index:1;
+top:5px;
+height:100;
+width:100;
+background:green;
+border:solid 10px grey;
+border-radius:15px;
+padding:20px 2px;
+}
+p{
+padding:5px;
+font-size:20px;
+text-align:center;
+
+}
+.info{
+font-size:18px;
+font-family:"Times New Roman";
+
+}
+.sidepanel{
+position:absolute;
+z-index:-1;
+padding:20px 50px;
+border:solid 5px black;
+border-radius:25px;
+width:55px;
+height:1000px;
+background-color:green;
+}
+.parallax {
+    /* The image used */
+    background-image: url("parallax2.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+body{
+background-padding: 20px;
+font-size:100%;
+}
+.sideright{
+position:absolute;
+z-index:-1;
+right:10px;
+top:159px;
+}
+.centertext{
+position:absolute;
+left:220px;
+top:120px;
+width:860px;
+height:1090px;
+border:solid 5px black;
+background: grey;
+padding:20px;
+}
+
+img{
+float:right;
+width:150px;
+height:150px;
+margin:auto;
+border: solid 5px black;
+}
+a:link{
+color:red;;
+}
+a:visited{
+color:purple;
+}
+a:hover{
+color:pink;
+}
+.footer{
+height:100;
+width:100;
+background:green;
+border:solid 10px grey;
+border-radius:15px;
+padding:20px 2px;
+position:relative;
+top:1020px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+
+</head>
+<body class="parallax" ng-app="myApp" ng-controller="homeCtrl">
+
+<div class="first">
+{{> header}}
+<p >
+All you must know about Itachi:{{msg}}</p>
+</div >
+<div class="sidepanel">
+<p >
+Left
+</p>
+</div>
+<div class="centertext">
+
+<p class="info" style="text-align:left;">
+
+<p>Enter text:<input type="text" ng-model="msg" name="textinput"></p>
+<img src="parallax1.jpg"></img>
+<br><br>
+<span style="font-size:30px;"> T</span>he death and destruction he experienced at such a young age traumatised Itachi and made him a pacifist. Furthermore, meeting Orochimaru, who viewed life without eternity as meaningless, also made Itachi greatly consider how to carry out his life. He became somewhat anti-social, focusing more on his training than enjoying his childhood. At the same time, he developed a kinship with crows. At age 5, Itachi met Shisui. With their similar views, the two quickly became best friends and formed a brother-like bond, training together and teaching each other new skills. During the Nine-Tailed Demon Fox's Attack, he was responsible for looking after his infant brother, Sasuke, and with his parents occupied, evacuated with his brother and Izumi Uchiha, to the south-east shelter. The Nine-Tails' attack had soured relations between Konoha's leadership and the Uchiha, the former believing the latter to be responsible. The Uchiha were relocated to a corner of the village, isolating them from the rest of the village and making it easier to monitor them.
+<br><br><img src="Uchiha_Anbu.png" style="float:left;" ></img>
+<span style="font-size:30px;"> A</span>t age 11, he entered the Anbu. Itachi's accomplishments were a source of great pride for his family, his father viewing him as proof of the Uchiha's future prosperity and his brother viewing him as a model to live up to. Itachi spent a great deal of time with Sasuke, training with him (though rarely actually training him) and giving him the recognition their father did not. However, for all the attention he received, few truly understood Itachi,[13] believing his isolation to be a result of the gap between his abilities and theirs and not his dissatisfaction with the shinobi's life of conflict. Eventually, the Uchiha's disdain for their unfair treatment lead them to plan a coup d'état. Fugaku, head of the Uchiha and the coup's chief conspirator, encouraged Itachi's advancement into the Anbu's ranks as a means of spying on the village. Itachi, however, knew an Uchiha coup would lead to intervention from other villages and ultimately start another World War, something he could not support. He instead became a double agent, reporting the Uchiha's actions to the Third Hokage and the Konoha Council in the hopes it would help them find a peaceful resolution.
+
+</div>
+<div class="footer">
+<p>
+{{> footer}}</p>
+</div>
+<div class="sidepanel sideright">
+<p>
+Right
+</p>
+</div>
+
+<script>
+var app = angular.module("myApp", []);
+app.controller("homeCtrl",function($scope){
+
+$scope.msg = "This is the homepage";
+});
+</script>
+</body>
+</html> -->
